@@ -5,10 +5,5 @@
 span {
    background-color: yellow;
    /*
-      * Static does not break the flow of the document.
-      * Does not obey offset properties.
-      * Does not obey the stacking context (z-index).
-      * It’s the default/implied offset property.
    */
-   position: static;
 }
