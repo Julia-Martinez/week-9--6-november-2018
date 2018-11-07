@@ -19,6 +19,7 @@
 
 #container > div:nth-of-type(2) {
    background-color: blue;
+   top: -100px;
 }
 
 #container > div:nth-of-type(3) {
