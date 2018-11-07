@@ -6,3 +6,10 @@
    background-color: rgb(245, 250, 255);
 }
 
+#container > div {
+   position: relative;
+   margin: auto;
+   width: 100px;
+   height: 100px;
+}
+
