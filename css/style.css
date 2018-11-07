@@ -13,3 +13,18 @@
    height: 100px;
 }
 
+#container > div:first-of-type {
+   background-color: red;
+}
+
+#container > div:nth-of-type(2) {
+   background-color: blue;
+}
+
+#container > div:nth-of-type(3) {
+   background-color: yellow;
+}
+
+#container > div:last-of-type {
+   background-color: pink;
+}
