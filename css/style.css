@@ -1,3 +1,8 @@
 :root {
    font-size: 24px;
 }
+
+#container {
+   background-color: rgb(245, 250, 255);
+}
+
