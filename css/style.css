@@ -2,14 +2,20 @@
    font-size: 24px;
 }
 
-span {
-   background-color: yellow;
-   /*
-      * Relative does not break the flow of the document.
-      * Obeys offset properties.
-      * Obeys stacking context (z-index).
-   */
-   position: relative;
-   top: 20px;
-   right: 20px;
+h1 {
+   position: fixed;
+   top: 0;
+   left: 0;
+   margin: 0;
+   width: 100vw;
+   height: 100px;
+   background-color: rgb(125, 200, 255);
+   text-align: center;
+   line-height: 100px;
+}
+
+p:first-of-type {
+   padding-top: 12px;
+   border: 1px solid #ddd;
+   margin-top: 100px;
 }
